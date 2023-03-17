@@ -2,7 +2,7 @@
 b=100
 #rt represents total rabbit number
 rt=2
-t=0
+t=1
 #r represents the growth each time
 r=2
 while rt < b:
