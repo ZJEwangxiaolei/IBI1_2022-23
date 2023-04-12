@@ -14,9 +14,11 @@ with open(output_filename, 'w') as f:
         if lines[i][0] == '>':
             name = lines[i].split()[0][1:]
             seq = ''
+            num = 0
             for j in range(i+1, len(lines)):
                 if lines[j][0] == '>':
                     break
                 seq += lines[j].strip()
             if seq[-3:] == stop_codon:
-                f.write(f'{name}\n{seq}\n')
+                num += 1
+        f.write(f'{num}" "{name}\n{seq}\n')
