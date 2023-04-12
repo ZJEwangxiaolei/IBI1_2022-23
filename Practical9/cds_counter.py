@@ -1,6 +1,11 @@
+# read the sequence
 seq = 'ATGCAATCGACTACGATCTGAGAGGGCCTAA'
+
+# input the start and stop codons
 start_codon = 'ATG'
 stop_codons = ['TAA', 'TAG', 'TGA']
+
+# 
 count = 0
 for i in range(len(seq)):
     if seq[i:i+3] == start_codon:
