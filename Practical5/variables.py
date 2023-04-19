@@ -1,8 +1,8 @@
 a=-3.19
 b=-118.24
 c=116.39
-d=a-b
-e=a-c
+d=b-a
+e=c-a
 
 if d > e:
     print("Rob travelled further to Los Angeles than to Haining.")
@@ -17,3 +17,4 @@ W=X and Y
 Z=X or Y
 print("W=",W)
 print("Z=",Z)
+#W= False and Z= True

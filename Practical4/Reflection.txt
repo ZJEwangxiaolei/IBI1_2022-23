@@ -1,1 +1,2 @@
 note on 12/4/23, yes! I can make changes in both directions
+note on 19/4/23 I can use the class and def!
