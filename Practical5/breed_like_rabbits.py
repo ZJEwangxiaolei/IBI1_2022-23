@@ -7,7 +7,7 @@ b=100
 rt=2
 t=1
 r=2
-while rt < b:
+while rt < 0.5*b:
     r=rt
     rt=2*rt
     t=t+1
