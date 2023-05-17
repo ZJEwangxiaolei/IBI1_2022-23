@@ -15,6 +15,7 @@ for term in terms:
         print("Term name: %s" % name.childNodes[0].data)
         print("Definition string: %s" % defstr.childNodes[0].data)
 
+# the code to finish the second task. To aviod bugs, I input the XML again
 dom = xml.dom.minidom.parse("Practical14/go_obo.xml")
 terms = dom.getElementsByTagName("term")
 for term in terms:
